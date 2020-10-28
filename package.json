@@ -1,0 +1,59 @@
+{
+  "name": "react-dynamik",
+  "version": "1.0.0",
+  "description": "react dynamic form based on formik and yup",
+  "main": "index.js",
+  "scripts": {
+    "demo": "webpack-dev-server --config webpack-demo.config.js --open --port 3001 --env.development --devtool source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouyuan1990/react-dynamik.git"
+  },
+  "keywords": [
+    "react",
+    "dynamic-form",
+    "formik",
+    "yup",
+    "form"
+  ],
+  "author": "Arki Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhouyuan1990/react-dynamik/issues"
+  },
+  "homepage": "https://github.com/zhouyuan1990/react-dynamik#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-cli": "6",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react-app": "3",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "formik": "^2.2.1",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "yup": "^0.29.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "initialValues": {
+    "input": "1"
+  },
+  "fields": [
+    {
+      "name": "input",
+      "label": "Input Field",
+      "type": "input",
+      "required": true
+    },
+    {
+      "name": "select",
+      "label": "Select Field",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "label": "Option 1",
+          "value": 1
+        },
+        {
+          "label": "Option 2",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "input1",
+      "label": "Input 1",
+      "type": "input",
+      "required": true,
+      "displays": [
+        {
+          "dependency": "input",
+          "dependencyType": "string",
+          "rules": [{ "type": "exactIs", "params": ["1"] }]
+        }
+      ]
+    },
+    {
+      "name": "input2",
+      "label": "Input 2",
+      "type": "input",
+      "required": true,
+      "displays": [
+        {
+          "dependency": "input",
+          "dependencyType": "string",
+          "rules": [{ "type": "exactIs", "params": ["2"] }]
+        }
+      ]
+    }
+  ]
+}
